@@ -1,3 +1,17 @@
+.useFullLinkDiv span {
+    display: block;
+    width: 25%;
+    border-bottom: 3px solid #05FF00; /*underline color*/
+    text-align: justify;
+}
+
+span {
+    display: block;
+    width: 15%;
+    border-bottom: 3px solid #05FF00; /*underline color*/
+    text-align: justify;
+}
+
 .footerDiv {
     background-color: #1F1F22;
 }
@@ -42,11 +56,39 @@
     .copyRightTextDiv {
         padding-left: 2rem;
     }
+
+    .useFullLinkDiv span {
+        display: block;
+        width: 37%;
+        border-bottom: 3px solid #05FF00; /*underline color*/
+        text-align: justify;
+    }
+
+    span {
+        display: block;
+        width: 20%;
+        border-bottom: 3px solid #05FF00; /*underline color*/
+        text-align: justify;
+    }
 }
 
 @media only screen and (max-device-width: 768px) {
     .copyRightTextDiv {
         padding-left: 0;
+    }
+
+    .useFullLinkDiv span {
+        display: block;
+        width: 49%;
+        border-bottom: 3px solid #05FF00; /*underline color*/
+        text-align: justify;
+    }
+
+    span {
+        display: block;
+        width: 29%;
+        border-bottom: 3px solid #05FF00; /*underline color*/
+        text-align: justify;
     }
 }
 
@@ -61,6 +103,22 @@
 
     .textFieldDiv {
         margin-bottom: 20px;
+    }
+
+    .useFullLinkDiv span {
+        display: block;
+        width: 22%;
+        border-bottom: 3px solid #05FF00; /*underline color*/
+        text-align: justify;
+        margin-bottom: 5px;
+    }
+
+    span {
+        display: block;
+        width: 17%;
+        border-bottom: 3px solid #05FF00; /*underline color*/
+        text-align: justify;
+        margin-bottom: 15px;
     }
 }
 

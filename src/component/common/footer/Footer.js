@@ -25,7 +25,8 @@ class AboutUs extends Component {
                     </div>
                     <div className="col-sm-3 col-md-3 col-lg-3">
                         <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4 useFullLinkDiv">
-                            <h5><u>Use Full Links</u></h5>
+                            <h5>Use Full Links</h5>
+                            <span></span>
                             <div>
                                 <ul className="navbar-nav">
                                     <li className="nav-link">Home</li>
@@ -39,7 +40,8 @@ class AboutUs extends Component {
                     </div>
                     <div className="col-sm-4 col-md-4 col-lg-4">
                         <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4">
-                            <h5><u>Subscribe</u></h5>
+                            <h5>Subscribe</h5>
+                            <span></span>
                             <div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid asperiores
                                     dolores
