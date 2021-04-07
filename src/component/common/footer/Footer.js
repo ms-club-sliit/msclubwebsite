@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Footer.css';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 class AboutUs extends Component {
     render() {
@@ -43,7 +44,7 @@ class AboutUs extends Component {
                             <div className="input-group">
                                 <input type="text" className="form-control" placeholder="Email Address"/>
                                 <span className="input-group-text">
-
+                                        <FontAwesomeIcon icon={}/>
                                     </span>
                             </div>
                         </div>
