@@ -1,0 +1,93 @@
+.footerDiv {
+    background-color: #1F1F22;
+}
+
+.copyRightText {
+    background-color: #121213;
+}
+
+.emailAddress {
+    background-color: #464141;
+    border: none;
+}
+
+.emailAddress:focus {
+    background-color: #464141;
+    border: none;
+    color: #ffffff;
+}
+
+::-webkit-input-placeholder {
+    color: #ffffff !important;
+}
+
+::-moz-placeholder {
+    color: white !important;
+}
+
+:-ms-input-placeholder {
+    color: #ffffff !important;
+}
+
+.icon {
+    background: #05FF00;
+}
+
+.copyRightTextDiv {
+    padding-left: 2.57rem;
+}
+
+
+@media only screen and (max-device-width: 1024px) {
+    .copyRightTextDiv {
+        padding-left: 2rem;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .copyRightTextDiv {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-device-width: 425px) {
+    .copyRightTextDiv {
+        padding-left: 0;
+    }
+
+    .useFullLinkDiv {
+        margin: 15px 0 20px 0;
+    }
+
+    .textFieldDiv {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-device-width: 375px) {
+    .copyRightTextDiv {
+        padding-left: 0;
+    }
+
+    .useFullLinkDiv {
+        margin: 15px 0 20px 0;
+    }
+
+    .textFieldDiv {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-device-width: 320px) {
+    .copyRightTextDiv {
+        padding-left: 0;
+    }
+
+    .useFullLinkDiv {
+        margin: 15px 0 20px 0;
+    }
+
+    .textFieldDiv {
+        margin-bottom: 20px;
+    }
+}
