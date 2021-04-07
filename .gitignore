@@ -33,6 +33,7 @@ speed-measure-plugin.json
 .history/*
 
 # misc
+/.eslintcache
 /.sass-cache
 /connect.lock
 /coverage
