@@ -3,12 +3,14 @@ import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
 
+const logo = require('../../../assets/images/club/Ms-Club.jpg');
+
 const footer = () => (
   <div className="container-fluid">
     <div className="row footerDiv justify-content-lg-around text-light ">
       <div className="ml-md-5 ml-lg-2 col-sm-3 col-md-3 col-lg-3 d-flex flex-column justify-content-between">
         <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4 logoDiv">
-          <img src="../../../assets/images/club/Ms-Club.jpg" alt="logo" width="142px" height="142px" />
+          <img src={logo} alt="logo" width="142px" height="142px" />
         </div>
         <div>
           <p>
