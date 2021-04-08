@@ -3,15 +3,18 @@ import './Footer.css';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faEnvelope} from '@fortawesome/free-regular-svg-icons';
 
+
 class AboutUs extends Component {
+
     render() {
         return (
             <div className="container-fluid">
                 <div className="row footerDiv justify-content-lg-around text-light ">
                     <div
                         className="ml-md-5 ml-lg-2 col-sm-3 col-md-3 col-lg-3 d-flex flex-column justify-content-between">
-                        <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4">
-                            <img src="../../../assets/logo/Ms-Club.jpg" alt="masClub"/>
+                        <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4 logoDiv">
+                            <img src={require('../../../assets/images/club/Ms-Club.jpg').default} alt="logo"
+                                 width="142px" height="142px"/>
                         </div>
                         <div>
                             <p>
@@ -39,9 +42,9 @@ class AboutUs extends Component {
                         </div>
                     </div>
                     <div className="col-sm-4 col-md-4 col-lg-4">
-                        <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4">
+                        <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4 subscribeDetailsDiv">
                             <h5>Subscribe</h5>
-                            <span></span>
+                            <span id="subscribeUnderLineSpan"></span>
                             <div>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid asperiores
                                     dolores

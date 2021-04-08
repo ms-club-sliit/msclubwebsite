@@ -5,7 +5,7 @@
     text-align: justify;
 }
 
-span {
+.subscribeUnderLineSpan {
     display: block;
     width: 15%;
     border-bottom: 3px solid #05FF00; /*underline color*/
@@ -64,7 +64,7 @@ span {
         text-align: justify;
     }
 
-    span {
+    .subscribeUnderLineSpan {
         display: block;
         width: 20%;
         border-bottom: 3px solid #05FF00; /*underline color*/
@@ -84,7 +84,7 @@ span {
         text-align: justify;
     }
 
-    span {
+    .subscribeUnderLineSpan {
         display: block;
         width: 29%;
         border-bottom: 3px solid #05FF00; /*underline color*/
@@ -113,12 +113,16 @@ span {
         margin-bottom: 5px;
     }
 
-    span {
+    .subscribeUnderLineSpan {
         display: block;
         width: 17%;
         border-bottom: 3px solid #05FF00; /*underline color*/
         text-align: justify;
         margin-bottom: 15px;
+    }
+
+    .logoDiv {
+        padding-top: 25px;
     }
 }
 
