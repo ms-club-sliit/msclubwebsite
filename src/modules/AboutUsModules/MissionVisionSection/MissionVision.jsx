@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/img-redundant-alt */
 import React from 'react';
 import './MissionVision.css';
 import FlatVector from '../../../assets/flat-illustrations/boardpeople.png';
