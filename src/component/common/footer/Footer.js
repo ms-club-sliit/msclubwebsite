@@ -1,16 +1,16 @@
-import React from 'react';
-import './Footer.css';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-regular-svg-icons';
+import React from "react";
+import "./Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
-const logo = require('../../../assets/images/club/Ms-Club.jpg');
+const logo = require("../../../assets/images/club/Ms-Club.jpg");
 
 const footer = () => (
   <div className="container-fluid">
     <div className="row footerDiv justify-content-lg-around text-light ">
       <div className="ml-md-5 ml-lg-2 col-sm-3 col-md-3 col-lg-3 d-flex flex-column justify-content-between">
         <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4 logoDiv">
-          <img src={logo} alt="logo" width="142px" height="142px" />
+          <img src={logo} alt="logo" width="142px" height="142px"/>
         </div>
         <div>
           <p>
@@ -22,12 +22,12 @@ const footer = () => (
       </div>
       <div className="col-sm-3 col-md-3 col-lg-3">
         <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4 useFullLinkDiv">
-          <h5>Use Full Links</h5>
-          <span />
+          <h5>Usefull Links</h5>
+          <span/>
           <div>
             <ul className="navbar-nav">
               <li className="nav-link">Home</li>
-              <li className="nav-link">Contact</li>
+              <li className="nav-link">Contact Us</li>
               <li className="nav-link">Blog</li>
               <li className="nav-link">Events</li>
               <li className="nav-link">Code of Contact</li>

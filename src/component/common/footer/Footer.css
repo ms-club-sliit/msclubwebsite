@@ -2,6 +2,9 @@
   --icon-color: #05ff00;
   --under-line-color: #05ff00;
   --input-field-background-color: #464141;
+  --input-field-placeholder-color: #ffffff;
+  --footer-background-color: #1f1f22;
+  --copyright-text-background-color: #121213;
 }
 
 .useFullLinkDiv span {
@@ -19,11 +22,11 @@
 }
 
 .footerDiv {
-  background-color: #1f1f22;
+  background-color: var(--footer-background-color);
 }
 
 .copyRightText {
-  background-color: #121213;
+  background-color: var(--copyright-text-background-color);
 }
 
 .emailAddress {
@@ -34,19 +37,19 @@
 .emailAddress:focus {
   background-color: var(--input-field-background-color) !important;
   border: none;
-  color: #ffffff !important;
+  color: var(--input-field-placeholder-color) !important;
 }
 
 ::-webkit-input-placeholder {
-  color: #ffffff !important;
+  color: var(--input-field-placeholder-color) !important;
 }
 
 ::-moz-placeholder {
-  color: #ffffff !important;
+  color: var(--input-field-placeholder-color) !important;
 }
 
 :-ms-input-placeholder {
-  color: #ffffff !important;
+  color: var(--input-field-placeholder-color) !important;
 }
 
 .icon {
