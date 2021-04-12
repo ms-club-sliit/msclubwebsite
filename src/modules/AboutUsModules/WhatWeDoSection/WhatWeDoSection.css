@@ -1,0 +1,80 @@
+:root {
+  --light: #ffffff;
+  --light-icon-color: #2cb93b;
+  --light-shadow-color: #6ec476;
+}
+
+/* Basic Styling */
+
+.fas {
+  color: var(--light-icon-color);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 55.8px;
+}
+
+.content {
+  font-weight: 500;
+}
+
+.card {
+  border-radius: 10px;
+  text-align: center;
+  background: var(--light);
+  box-shadow: 0px 0px 0px var(--light-shadow-color);
+  -webkit-transition: box-shadow 0.3s ease-out;
+}
+
+.card:hover {
+  box-shadow: 8px 10px var(--light-shadow-color);
+  -webkit-transition: box-shadow 0.2s ease-in;
+}
+
+/* Styling for breakpoints */
+
+@media (min-width: 768px) {
+  /* Device screen larger than 768px */
+  .container {
+    max-width: 880px;
+  }
+
+  .card {
+    height: 320px;
+  }
+}
+
+@media (min-width: 992px) {
+  /* Device screen larger than 992px */
+  .container {
+    max-width: 940px;
+  }
+
+  .card {
+    height: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* Device screen larger than 1200px */
+  .container {
+    max-width: 1300px;
+  }
+
+  .card {
+    height: 230px;
+  }
+}
+
+@media (min-width: 1400px) {
+  /* Device screen larger than 1400px */
+  .container {
+    max-width: 1800px;
+  }
+
+  .card {
+    height: 220px;
+  }
+}

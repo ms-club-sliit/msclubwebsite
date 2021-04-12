@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import AboutUs from './pages/AboutUsPage/AboutUs';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import AppRoutes from './routes/AppRoutes';
 
-// eslint-disable-next-line react/prefer-stateless-function
-function App() {
-  return <AboutUs />;
-}
+const App = () => (
+  <div>
+    <AppRoutes />
+  </div>
+);
 
 export default App;
