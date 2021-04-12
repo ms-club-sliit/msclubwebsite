@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { render, screen } from '@testing-library/react';
 import WhatMsClub from './WhatMsClub';
 
-describe('WhatMsClub.jsx', () => {
+describe('AboutUsModule - WhatMsClub.jsx', () => {
   test('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(<WhatMsClub />, div);

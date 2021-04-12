@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { render, screen } from '@testing-library/react';
 import HeroSection from './HeroSection';
 
-describe('HeroSection.jsx', () => {
+describe('AboutUsModule - HeroSection.jsx', () => {
   test('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(<HeroSection />, div);

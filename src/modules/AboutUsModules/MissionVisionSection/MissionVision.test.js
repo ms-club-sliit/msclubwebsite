@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { render, screen } from '@testing-library/react';
 import MissionVision from './MissionVision';
 
-describe('MissionVission.jsx', () => {
+describe('AboutUsModule - MissionVission.jsx', () => {
   test('renders without crashing', () => {
     const div = document.createElement('div');
     ReactDOM.render(<MissionVision />, div);
