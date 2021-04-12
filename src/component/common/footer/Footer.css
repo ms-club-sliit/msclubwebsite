@@ -1,0 +1,163 @@
+:root{
+  --icon-color: #05ff00;
+  --under-line-color: #05ff00;
+  --input-field-background-color: #464141;
+  --input-field-placeholder-color: #ffffff;
+  --footer-background-color: #1f1f22;
+  --copyright-text-background-color: #121213;
+}
+
+.useFullLinkDiv span {
+  display: block;
+  width: 25%;
+  border-bottom: 3px solid var(--under-line-color); /*underline color*/
+  text-align: justify;
+}
+
+#subscribeUnderLineSpan {
+  display: block;
+  width: 15%;
+  border-bottom: 3px solid var(--under-line-color) !important; /*underline color*/
+  text-align: justify;
+}
+
+.footerDiv {
+  background-color: var(--footer-background-color);
+}
+
+.copyRightText {
+  background-color: var(--copyright-text-background-color);
+}
+
+.emailAddress {
+  background-color: var(--input-field-background-color) !important;
+  border: none !important;
+}
+
+.emailAddress:focus {
+  background-color: var(--input-field-background-color) !important;
+  border: none;
+  color: var(--input-field-placeholder-color) !important;
+}
+
+::-webkit-input-placeholder {
+  color: var(--input-field-placeholder-color) !important;
+}
+
+::-moz-placeholder {
+  color: var(--input-field-placeholder-color) !important;
+}
+
+:-ms-input-placeholder {
+  color: var(--input-field-placeholder-color) !important;
+}
+
+.icon {
+  background: var(--icon-color) !important;
+}
+
+.copyRightTextDiv {
+  padding-left: 2.57rem;
+}
+
+@media only screen and (max-device-width: 1024px) {
+  .copyRightTextDiv {
+    padding-left: 2rem;
+  }
+
+  .useFullLinkDiv span {
+    display: block !important;
+    width: 37%;
+    border-bottom: 3px solid var(--under-line-color); /*underline color*/
+    text-align: justify;
+  }
+
+  .subscribeUnderLineSpan {
+    display: block;
+    width: 20% !important;
+    border-bottom: 3px solid var(--under-line-color); /*underline color*/
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-device-width: 768px) {
+  .copyRightTextDiv {
+    padding-left: 0;
+  }
+
+  .useFullLinkDiv span {
+    display: block;
+    width: 49% !important;
+    border-bottom: 3px solid var(--under-line-color); /*underline color*/
+    text-align: justify;
+  }
+
+  #subscribeUnderLineSpan {
+    display: block;
+    width: 29% !important;
+    border-bottom: 3px solid var(--under-line-color); /*underline color*/
+    text-align: justify;
+  }
+}
+
+@media only screen and (max-device-width: 425px) {
+  .copyRightTextDiv {
+    padding-left: 0;
+  }
+
+  .useFullLinkDiv {
+    margin: 15px 0 20px 0;
+  }
+
+  .textFieldDiv {
+    margin-bottom: 20px;
+  }
+
+  .useFullLinkDiv span {
+    display: block;
+    width: 22% !important;
+    border-bottom: 3px solid var(--under-line-color); /*underline color*/
+    text-align: justify;
+    margin-bottom: 5px;
+  }
+
+  #subscribeUnderLineSpan {
+    display: block;
+    width: 17% !important;
+    border-bottom: 3px solid var(--under-line-color); /*underline color*/
+    text-align: justify;
+    margin-bottom: 15px;
+  }
+
+  .logoDiv {
+    padding-top: 25px;
+  }
+}
+
+@media only screen and (max-device-width: 375px) {
+  .copyRightTextDiv {
+    padding-left: 0;
+  }
+
+  .useFullLinkDiv {
+    margin: 15px 0 20px 0;
+  }
+
+  .textFieldDiv {
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-device-width: 320px) {
+  .copyRightTextDiv {
+    padding-left: 0;
+  }
+
+  .useFullLinkDiv {
+    margin: 15px 0 20px 0;
+  }
+
+  .textFieldDiv {
+    margin-bottom: 20px;
+  }
+}
