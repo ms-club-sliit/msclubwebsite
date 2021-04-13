@@ -1,0 +1,17 @@
+.past-event-img {
+    border-radius: 10px;
+    height: 100%;
+}
+
+.event-card {
+    border-radius: 10px;
+    text-align: center;
+    background: var(--light);
+    box-shadow: 0px 0px 0px var(--light-shadow-color);
+    -webkit-transition: box-shadow 0.3s ease-out;
+}
+
+.event-card:hover {
+    box-shadow: 8px 10px var(--light-shadow-color);
+    -webkit-transition: box-shadow 0.2s ease-out;
+}

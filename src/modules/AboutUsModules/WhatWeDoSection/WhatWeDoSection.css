@@ -20,7 +20,7 @@
   font-weight: 500;
 }
 
-.card {
+.about-us-card {
   border-radius: 10px;
   text-align: center;
   background: var(--light);
@@ -28,7 +28,7 @@
   -webkit-transition: box-shadow 0.3s ease-out;
 }
 
-.card:hover {
+.about-us-card:hover {
   box-shadow: 8px 10px var(--light-shadow-color);
   -webkit-transition: box-shadow 0.2s ease-in;
 }
@@ -41,7 +41,7 @@
     max-width: 880px;
   }
 
-  .card {
+  .about-us-card {
     height: 320px;
   }
 }
@@ -52,7 +52,7 @@
     max-width: 940px;
   }
 
-  .card {
+  .about-us-card {
     height: 250px;
   }
 }
@@ -63,7 +63,7 @@
     max-width: 1300px;
   }
 
-  .card {
+  .about-us-card {
     height: 230px;
   }
 }
@@ -74,7 +74,7 @@
     max-width: 1800px;
   }
 
-  .card {
+  .about-us-card {
     height: 220px;
   }
 }

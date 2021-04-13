@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import items from './WhatWeDoSectionData.json';
 
 const Card = ({ icon, description }) => (
-  <div className="card">
+  <div className="card about-us-card">
     <div className="card-body">
       <div className="d-flex justify-content-center">
         <i className={icon} />
