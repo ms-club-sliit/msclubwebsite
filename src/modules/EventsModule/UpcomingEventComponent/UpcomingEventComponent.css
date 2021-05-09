@@ -1,0 +1,28 @@
+.UpcomingEventComponent {
+  padding: 3%;
+}
+
+.event-upcoming-btn {
+  background: #2cb93b;
+  border-radius: 10px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 18px;
+  border: none;
+  box-shadow: 0px 5px 8px rgba(0.15, 0.15, 0.15, 0.15);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: all 0.05s ease;
+  padding: 5px 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .UpcomingEventComponentImg {
+    border-radius: 15px;
+  }
+  .UpcomingEventComponentCard {
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 19px -10px rgba(0, 0, 0, 0.75);
+  }
+}
