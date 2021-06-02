@@ -172,6 +172,18 @@ font-style: oblique;
   .logoDiv {
     padding-top: 25px;
   }
+
+  .nav-link {
+    font-size: 4.1vw;
+  }
+
+  .td {
+    font-size: 3.1vw;
+  }
+
+  .copyRightTextPara {
+    font-size: 1.9vw;
+  }
 }
 
 @media only screen and (max-device-width: 375px) {
