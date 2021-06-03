@@ -81,7 +81,7 @@ const footer = () => (
           <div className="col-xl-6 col-lg-6 text-center text-lg-left">
             <div className="copyright-text">
               <p>
-                Copyright &copy; 2018, All Right Reserved{' '}
+                Copyright &copy; 2021, All Right Reserved{' '}
                 <a href="https://ms-club-website.web.app/">MS Club of SLIIT</a>
               </p>
             </div>
