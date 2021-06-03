@@ -60,7 +60,14 @@ const PastEvents = () => (
         }}
       >
         {events.data.map((event) => (
-          <EventCardComponent key={event.id} image={event.image} title={event.title} time={event.time} />
+          <EventCardComponent
+            key={event.id}
+            image={event.image}
+            title={event.title}
+            time={event.time}
+            month={event.month}
+            date={event.date}
+          />
         ))}
       </OwlCarousel>
     </div>
