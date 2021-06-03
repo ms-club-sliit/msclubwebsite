@@ -1,70 +1,94 @@
 import React from 'react';
 import './Footer.css';
-import logo from '../../../assets/images/logo/Ms-Club.jpg';
+import Logo from '../../../assets/images/logo/Ms-Club.png';
 
 const footer = () => (
-  <div className="container-fluid">
-    <div className="row footerDiv justify-content-lg-around text-light ">
-      <div className="ml-md-5 ml-lg-2 col-sm-3 col-md-3 col-lg-3 d-flex flex-column justify-content-between">
-        <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4 logoDiv">
-          <img src={logo} alt="logo" width="142px" height="142px" />
-        </div>
-        <div className="td">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni maiores molestias suscipit tempore?
-            Asperiores aut beatae doloremque, enim fugit, illum itaque mollitia nobis optio quo ratione, repudiandae
-            voluptas voluptates.
-          </p>
-        </div>
-      </div>
-      <div className="col-sm-3 col-md-3 col-lg-3">
-        <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4 useFullLinkDiv">
-          <h5 className="footerSubHeaderText">Usefull Links</h5>
-          <span />
-          <div>
-            <ul className="navbar-nav">
-              <li className="nav-link">Home</li>
-              <li className="nav-link">Contact Us</li>
-              <li className="nav-link">Blog</li>
-              <li className="nav-link">Events</li>
-              <li className="nav-link">Code of Contact</li>
-            </ul>
+  <footer className="footer-section">
+    <div className="container">
+      <div className="footer-content pt-5 pb-5">
+        <div className="row">
+          <div className="col-xl-4 col-lg-4 mb-50">
+            <div className="footer-widget">
+              <div className="footer-logo">
+                <a href="index.html">
+                  <img src={Logo} className="img-fluid" width="150px" alt="logo" />
+                </a>
+              </div>
+              <div className="footer-text">
+                <p>
+                  Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec
+                  tetur adipisicing elit,Lorem ipsum dolor sit amet.
+                </p>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-      <div className="col-sm-4 col-md-4 col-lg-4">
-        <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4 subscribeDetailsDiv">
-          <h5 className="footerSubHeaderText">Subscribe</h5>
-          <span id="subscribeUnderLineSpan" />
-          <div>
-            <p className="td">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid asperiores dolores harum laboriosam,
-              maiores nobis quae repudiandae tempora voluptatem? Autem esse facilis neque nihil nobis perspiciatis
-              soluta sunt vero!
-            </p>
+          <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+            <div className="footer-widget">
+              <div className="footer-widget-heading">
+                <h3>Useful Links</h3>
+              </div>
+              <ul>
+                <li>
+                  <a href="https://ms-club-website.web.app/">Home</a>
+                </li>
+                <li>
+                  <a href="https://ms-club-website.web.app/">Contact us</a>
+                </li>
+                <li>
+                  <a href="https://ms-club-website.web.app/">Blog</a>
+                </li>
+                <li>
+                  <a href="https://ms-club-website.web.app/">Events</a>
+                </li>
+                <li>
+                  <a href="https://ms-club-website.web.app/">Code of Contact</a>
+                </li>
+                <li>
+                  <a href="https://ms-club-website.web.app/">Brand Assets</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <div className="mb-md-4 mt-md-4 mt-lg-4">
-            <div className="input-group textFieldDiv">
-              <input type="text" className="form-control emailAddress" placeholder="Email Address" />
-              <span className="input-group-text icon">
-                <i className="far fa-envelope" />
-              </span>
+          <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
+            <div className="footer-widget">
+              <div className="footer-widget-heading">
+                <h3>Subscribe</h3>
+              </div>
+              <div className="footer-text mb-25">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid asperiores dolores harum
+                  laboriosam, maiores nobis quae repudiandae tempora voluptatem? Autem esse facilis neque nihil nobis
+                  perspiciatis soluta sunt vero!
+                </p>
+              </div>
+              <div className="subscribe-form">
+                <form action="#">
+                  <input type="text" placeholder="Email Address" />
+                  <button type="submit">
+                    <i className="fa fa-envelope" />
+                  </button>
+                </form>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-    <div className="row copyRightText">
-      <div
-        className="col-sm-12 col-md-12 col-lg-12 text-light d-flex justify-content-lg-start
-                        justify-content-sm-center align-items-center"
-      >
-        <div className="copyRightTextDiv">
-          <p className="copyRightTextPara">Copyright © 2021 | All Right Reserved MS Club of SLIIT</p>
+    <div className="copyright-area">
+      <div className="container">
+        <div className="row">
+          <div className="col-xl-6 col-lg-6 text-center text-lg-left">
+            <div className="copyright-text">
+              <p>
+                Copyright &copy; 2018, All Right Reserved{' '}
+                <a href="https://ms-club-website.web.app/">MS Club of SLIIT</a>
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-  </div>
+  </footer>
 );
 
 export default footer;
