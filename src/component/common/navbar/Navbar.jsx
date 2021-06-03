@@ -3,7 +3,7 @@ import './Navbar.css';
 import MSCLUBLOGO from '../../../assets/images/logo/Ms-Club.svg';
 
 const Navbar = () => (
-  <div>
+  <div className="container">
     <nav className="navbar navbar-expand-lg navbar-light bg-transparent">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
@@ -35,7 +35,7 @@ const Navbar = () => (
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/events">
+              <a className="nav-link" href="/about">
                 About
               </a>
             </li>
