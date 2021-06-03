@@ -16,8 +16,9 @@ const footer = () => (
               </div>
               <div className="footer-text">
                 <p>
-                  Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec
-                  tetur adipisicing elit,Lorem ipsum dolor sit amet.
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni maiores molestias suscipit
+                  tempore? Asperiores aut beatae doloremque, enim fugit, illum itaque mollitia nobis optio quo ratione,
+                  repudiandae voluptas voluptates.
                 </p>
               </div>
             </div>

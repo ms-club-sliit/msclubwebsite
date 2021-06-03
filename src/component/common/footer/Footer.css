@@ -46,9 +46,10 @@ ul {
   background-position: 100% 100%;
 }
 .footer-logo {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 .footer-logo img {
+  margin-top: -25px;
   max-width: 200px;
 }
 .footer-text p {
