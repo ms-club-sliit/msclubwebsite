@@ -4,6 +4,8 @@
 
 /* Styling for breakpoints */
 
+
+
 @media (min-width: 300px) {
   .hero-section-bg {
     position: absolute;
@@ -274,5 +276,29 @@
     width: 600px;
     margin-left: 60px;
     display: block;
+  }
+}
+
+
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 768px)
+and (-webkit-min-device-pixel-ratio: 2)  {
+
+  .hero-section-bg {
+    height: 350px;
+  }
+ 
+
+  .header-title {
+    font-weight: bolder;
+    font-size: 35px;
+    margin-left: 0px;
+    margin-top: 35px;
+  }
+
+  .header-content{
+    margin: auto;
+    text-align: center;
   }
 }

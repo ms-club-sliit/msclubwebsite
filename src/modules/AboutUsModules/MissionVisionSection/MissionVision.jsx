@@ -7,8 +7,8 @@ const MissionVision = () => (
   <section className="mainSection">
     <div className="container main">
       <div className="sec-1">
-        <div className="row text-left align-items-center pt-5 pb-md-5">
-          <div className="col-4 col-md-5">
+        <div className="row text-left text-sm-center align-items-center pt-5 pb-md-5 ">
+          <div className="col-4 col-md-5 col-sm-8">
             <img alt="image" className="img-fluid" src={FlatVector} />
           </div>
 
@@ -26,7 +26,7 @@ const MissionVision = () => (
       </div>
 
       <div className="row text-left align-items-center pt-5 pb-md-5">
-        <div className="col-4 col-md-5  order-md-5">
+        <div className="col-4 col-md-5 col-sm-8  order-md-5">
           <img alt="image" className="img-fluid" src={FlatVector} />
         </div>
 
@@ -43,7 +43,7 @@ const MissionVision = () => (
       </div>
 
       <div className="row text-left align-items-center pt-5 pb-md-5">
-        <div className="col-4 col-md-5">
+        <div className="col-4 col-md-5 col-sm-8">
           <img alt="image" className="img-fluid" src={FlatVector} />
         </div>
 
