@@ -1,18 +1,89 @@
+:root {
+    --card-info-color: #28ff93;
+}
+
 .past-event-img {
-    border-radius: 10px;
-    height: 100%;
+    position: relative;
+    border-radius: 10px 10px 20px 200px;
+    background: var( --card-info-color);
 }
 
 .event-card {
     width: 100%;
-    border-radius: 10px;
+    height: 100%;
+    min-height: 380px;
+    border-radius: 10px 10px;
     text-align: center;
     background: var(--light);
     box-shadow: 0px 0px 0px var(--light-shadow-color);
-    -webkit-transition: box-shadow 0.3s ease-out;
+    transition: box-shadow 0.3s ease-out;
+    background: var( --card-info-color);
+    border-radius: 10px 10px 20px 20px;
 }
 
 .event-card:hover {
-    box-shadow: 8px 10px var(--light-shadow-color);
-    -webkit-transition: box-shadow 0.2s ease-out;
+    /* box-shadow: 8px 10px var(--light-shadow-color);
+    transition: box-shadow 0.3s ease-out; */
+    cursor: pointer;
 }
+.card-title{
+    font-size: 25px;
+    font-weight: 600;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+}
+
+.day-container{
+    color:aliceblue;
+    transform: translate(30%, -100px);
+    border-radius: 100px;
+    background-color: red;
+    width:70px;
+    height: 70px;
+    
+}
+
+.day{
+    font-size: 40px;
+    font-weight: bold;   
+    top:10px;
+}
+
+.month{
+    margin-top: 0%;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top:50%;
+    left:25%;
+}
+.time-container{
+    background-color: rgb(255, 251, 0);
+    width:100px;
+    height: 30px;
+    border-radius: 10px;
+    transform: translate(30%,60%);
+}
+
+.time{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 4%;
+}
+
+.card-body{
+    position: absolute;
+    margin-top: 55%;
+}
+
+.description{
+    text-align: left;
+    font-size: 16px;
+    font-weight:500;
+    font-style: italic;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+

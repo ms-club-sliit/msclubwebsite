@@ -1,34 +1,44 @@
 {
     "data" : [
       {
-          "id": 1,
+        "id": 1,
         "image": "https://blog.bizzabo.com/hs-fs/hubfs/Microsoft%20Event%20Marketing/microsoft-event-marketing-blue-min.png?width=500&name=microsoft-event-marketing-blue-min.png",
-        "title": "JS World Conference Day 4 + Day 5 = Vue JS Amsterdam",
-        "time": "Feb 26, 6.30PM GMT +5:30"
+        "time": "6.30 PM",
+        "title": "Kubernetes Up & Running",
+        "date":"27",
+        "month":"Nov"
       },
       {
         "id": 2,
         "image": "https://blog.bizzabo.com/hs-fs/hubfs/Microsoft%20Event%20Marketing/microsoft-event-marketing-blue-min.png?width=500&name=microsoft-event-marketing-blue-min.png",
-        "title": "JS World Conference Day 4 + Day 5 = Vue JS Amsterdam",
-        "time": "Feb 26, 6.30PM GMT +5:30"
+        "time": "6.00 PM",
+        "title": "Imagine Cup Awareness Session",
+        "date":"07",
+        "month":"Dec"
       },
       {
         "id": 3,
         "image": "https://blog.bizzabo.com/hs-fs/hubfs/Microsoft%20Event%20Marketing/microsoft-event-marketing-blue-min.png?width=500&name=microsoft-event-marketing-blue-min.png",
-        "title": "JS World Conference Day 4 + Day 5 = Vue JS Amsterdam",
-        "time": "Feb 26, 6.30PM GMT +5:30"
+        "time": "7.30 PM",
+        "title": "First Step into Azure IoT",
+        "date":"15",
+        "month":"Aug"
       },
       {
         "id": 4,
         "image": "https://blog.bizzabo.com/hs-fs/hubfs/Microsoft%20Event%20Marketing/microsoft-event-marketing-blue-min.png?width=500&name=microsoft-event-marketing-blue-min.png",
-        "title": "JS World Conference Day 4 + Day 5 = Vue JS Amsterdam",
-        "time": "Feb 26, 6.30PM GMT +5:30"
+        "time": "7.00 PM",
+        "title": "Cloud Skills Challange - Lauching Event",
+        "date":"19",
+        "month":"Sep"
       },
       {
         "id": 5,
         "image": "https://blog.bizzabo.com/hs-fs/hubfs/Microsoft%20Event%20Marketing/microsoft-event-marketing-blue-min.png?width=500&name=microsoft-event-marketing-blue-min.png",
-        "title": "JS World Conference Day 4 + Day 5 = Vue JS Amsterdam",
-        "time": "Feb 26, 6.30PM GMT +5:30"
+        "time": "6.30 PM",
+        "title": "Serveless Computing with Azure Functions",
+        "date":21,
+        "month":"Jul"
       }     
     ]
   }
