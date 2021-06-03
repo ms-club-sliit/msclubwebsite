@@ -9,7 +9,7 @@ const footer = () => (
         <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4 logoDiv">
           <img src={logo} alt="logo" width="142px" height="142px" />
         </div>
-        <div>
+        <div className="td">
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti magni maiores molestias suscipit tempore?
             Asperiores aut beatae doloremque, enim fugit, illum itaque mollitia nobis optio quo ratione, repudiandae
@@ -19,7 +19,7 @@ const footer = () => (
       </div>
       <div className="col-sm-3 col-md-3 col-lg-3">
         <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4 useFullLinkDiv">
-          <h5>Usefull Links</h5>
+          <h5 className="footerSubHeaderText">Usefull Links</h5>
           <span />
           <div>
             <ul className="navbar-nav">
@@ -34,10 +34,10 @@ const footer = () => (
       </div>
       <div className="col-sm-4 col-md-4 col-lg-4">
         <div className="mb-sm-4 mt-sm-4 mb-md-4 mt-md-4 mt-lg-4 subscribeDetailsDiv">
-          <h5>Subscribe</h5>
+          <h5 className="footerSubHeaderText">Subscribe</h5>
           <span id="subscribeUnderLineSpan" />
           <div>
-            <p>
+            <p className="td">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aliquid asperiores dolores harum laboriosam,
               maiores nobis quae repudiandae tempora voluptatem? Autem esse facilis neque nihil nobis perspiciatis
               soluta sunt vero!
@@ -59,8 +59,8 @@ const footer = () => (
         className="col-sm-12 col-md-12 col-lg-12 text-light d-flex justify-content-lg-start
                         justify-content-sm-center align-items-center"
       >
-        <div className="pt-3 pb-3 copyRightTextDiv">
-          <p className="mb-0">Copyright © 2021 | All Right Reserved MS Club of SLIIT</p>
+        <div className="copyRightTextDiv">
+          <p className="copyRightTextPara">Copyright © 2021 | All Right Reserved MS Club of SLIIT</p>
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import AboutUs from '../pages/AboutUsPage/AboutUs';
 import Events from '../pages/EventsPage/Events';
 import Home from '../pages/HomePage/Home';
+import Footer from '../component/common/footer/Footer';
 
 const AppRoutes = () => (
   <div>
@@ -13,6 +14,7 @@ const AppRoutes = () => (
         <Route path="/events" component={Events} exact />
       </Switch>
     </Router>
+    <Footer />
   </div>
 );
 

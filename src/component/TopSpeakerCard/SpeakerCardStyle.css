@@ -1,10 +1,13 @@
-.past-event-img {
+.past-speaker-img {
+    object-fit: cover;
     border-radius: 10px;
-    height: 100%;
+    height: 250px;
+    overflow: hidden;
 }
 
-.event-card {
-    width: 100%;
+.speaker-card {
+    width: 280px;
+    height: 300px;
     border-radius: 10px;
     text-align: center;
     background: var(--light);
@@ -12,7 +15,7 @@
     -webkit-transition: box-shadow 0.3s ease-out;
 }
 
-.event-card:hover {
+.speaker-card:hover {
     box-shadow: 8px 10px var(--light-shadow-color);
     -webkit-transition: box-shadow 0.2s ease-out;
 }

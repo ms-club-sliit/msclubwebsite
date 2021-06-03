@@ -3,8 +3,8 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import EventCardComponent from '../../HomeModules/EventCardComponent/EventCardComponent';
-import events from './PastEventData.json';
-import './PastEventStyles.css';
+import events from './FutureEventData.json';
+import './FutureEventStyles.css';
 
 const responsive = {
   0: {
@@ -35,9 +35,9 @@ const slideNextKeyBoard = (e) => {
   }
 };
 
-const PastEvents = () => (
+const FutureEvents = () => (
   <div className="past-event-container">
-    <h2>Past Events</h2>
+    <h2>Future Events</h2>
     <div className="nav-button-wrapper">
       <div className="view-more">View More</div>
       <div className="owl-button-prev" onClick={slidePrev} onKeyDown={slidePrevKeyBoard} role="button" tabIndex={0}>
@@ -67,4 +67,4 @@ const PastEvents = () => (
   </div>
 );
 
-export default PastEvents;
+export default FutureEvents;

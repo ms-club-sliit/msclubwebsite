@@ -2,9 +2,9 @@ import React from 'react';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
-import EventCardComponent from '../../HomeModules/EventCardComponent/EventCardComponent';
-import events from './PastEventData.json';
-import './PastEventStyles.css';
+import speakers from './Speaker.json';
+import './TopSpeakerStyle.css';
+import TopSpeakerCard from '../../../component/TopSpeakerCard/TopSpeakerCard';
 
 const responsive = {
   0: {
@@ -14,7 +14,7 @@ const responsive = {
     items: 2,
   },
   1000: {
-    items: 3,
+    items: 4,
   },
 };
 let slider;
@@ -35,9 +35,9 @@ const slideNextKeyBoard = (e) => {
   }
 };
 
-const PastEvents = () => (
-  <div className="past-event-container">
-    <h2>Past Events</h2>
+const TopSpeakers = () => (
+  <div className="past-speaker-container">
+    <h2>Top Speakers</h2>
     <div className="nav-button-wrapper">
       <div className="view-more">View More</div>
       <div className="owl-button-prev" onClick={slidePrev} onKeyDown={slidePrevKeyBoard} role="button" tabIndex={0}>
@@ -59,12 +59,12 @@ const PastEvents = () => (
           slider = slide;
         }}
       >
-        {events.data.map((event) => (
-          <EventCardComponent key={event.id} image={event.image} title={event.title} time={event.time} />
+        {speakers.data.map((speaker) => (
+          <TopSpeakerCard key={speaker.id} image={speaker.image} title={speaker.title} />
         ))}
       </OwlCarousel>
     </div>
   </div>
 );
 
-export default PastEvents;
+export default TopSpeakers;
