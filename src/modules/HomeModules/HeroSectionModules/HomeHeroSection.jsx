@@ -1,10 +1,12 @@
 import React from 'react';
 import './HomeHeroSection.css';
 import HeroHeaderImage from '../../../assets/home/header-image.svg';
+import Navbar from '../../../component/common/navbar/Navbar';
 
 const HomeHeroSection = () => (
   <div className="container-fluid">
     <div className="home-hero-section-bg" />
+    <Navbar />
     <div className="row">
       <div className="col-sm-12 col-md-6 col-lg-6">
         <p className="home-header-title">

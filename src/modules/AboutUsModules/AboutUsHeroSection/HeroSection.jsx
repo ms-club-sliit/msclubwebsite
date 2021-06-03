@@ -2,10 +2,12 @@
 import React from 'react';
 import './HeroSection.css';
 import headerImage from '../../../assets/about-us/header-img.svg';
+import Navbar from '../../../component/common/navbar/Navbar';
 
 const HeroSection = () => (
   <div className="overlay">
     <div className="hero-section-bg" />
+    <Navbar />
     <div className="row">
       <div className="col-md-6">
         <p className="header-title">About US</p>
