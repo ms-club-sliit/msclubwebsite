@@ -1,4 +1,5 @@
 import React from 'react';
+import './WhatMsClub.css';
 
 const WhatMsClub = () => (
   <section className="fdb-block">
