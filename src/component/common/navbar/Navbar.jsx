@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import './Navbar.css';
 import MSCLUBLOGO from '../../../assets/images/logo/Ms-Club.svg';
 
@@ -26,24 +25,24 @@ const Navbar = () => (
 
           <ul className="navbar-nav d-flex me-2">
             <li className="nav-item">
-              <Link className="nav-link navLink" to="/">
+              <a className="nav-link navLink" href="/">
                 Home
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link navLink" to="/events">
+              <a className="nav-link navLink" href="/events">
                 Events
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link navLink" to="/about">
+              <a className="nav-link navLink" href="/about">
                 About
-              </Link>
+              </a>
             </li>
             <li className="nav-item">
-              <Link className="nav-link navLink" to="/contactus">
+              <a className="nav-link navLink" href="/contactus">
                 Contact us
-              </Link>
+              </a>
             </li>
           </ul>
         </div>
