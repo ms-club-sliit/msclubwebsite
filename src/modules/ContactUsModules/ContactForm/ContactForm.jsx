@@ -5,7 +5,7 @@ import './ContactForm.css';
 import emailjs from 'emailjs-com';
 import ContactUsImg from '../../../assets/contactus/contactus.svg';
 
-function sendEmail(e) {
+const sendEmail = (e) => {
   e.preventDefault();
   NotificationManager.info('Please wait..');
   emailjs.sendForm('service_504yqmn', 'template_9ine6vh', e.target, 'user_OkeRUw8xijd6xXRflprac').then(
@@ -17,7 +17,7 @@ function sendEmail(e) {
       NotificationManager.warning('Something went wrong');
     },
   );
-}
+};
 
 const ContactForm = () => (
   <div className="contactform-container">
