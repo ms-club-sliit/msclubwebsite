@@ -11,7 +11,7 @@ function sendEmail(e) {
   emailjs.sendForm('service_504yqmn', 'template_9ine6vh', e.target, 'user_OkeRUw8xijd6xXRflprac').then(
     () => {
       NotificationManager.success('Email sent successfully');
-      // document.getElementById('myForm').reset();
+      document.getElementById('myForm').reset();
     },
     () => {
       NotificationManager.warning('Something went wrong');

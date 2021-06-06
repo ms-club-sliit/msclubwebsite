@@ -135,5 +135,8 @@
             "some": ["nesting", "id"]
           }
         }]
-      }
+      },
+      "env": {
+        "browser": true
+    }
   }
