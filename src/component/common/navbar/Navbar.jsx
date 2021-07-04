@@ -5,7 +5,7 @@ import MSCLUBLOGO from '../../../assets/images/logo/Ms-Club.svg';
 const Navbar = () => (
   <div>
     <nav className="navbar navbar-expand-lg navbar-light bg">
-      <div className="container-fluid">
+      <div className="container-fluid wrap">
         <a className="navbar-brand" href="/">
           <img src={MSCLUBLOGO} alt="MsClubLogo" className="img-logo" />
         </a>

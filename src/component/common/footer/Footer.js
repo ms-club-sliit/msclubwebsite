@@ -78,7 +78,7 @@ const footer = () => (
     <div className="copyright-area">
       <div className="container">
         <div className="row">
-          <div className="col-xl-6 col-lg-6 text-center text-lg-left">
+          <div className="col-xl-12 col-lg-12 text-center">
             <div className="copyright-text">
               <p>
                 Copyright &copy; 2021, All Right Reserved{' '}
