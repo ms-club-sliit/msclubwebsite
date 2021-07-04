@@ -13,6 +13,7 @@
     background: var(--light);
     box-shadow: 0px 0px 0px var(--light-shadow-color);
     -webkit-transition: box-shadow 0.3s ease-out;
+    z-index: -1;
 }
 
 .speaker-card:hover {
