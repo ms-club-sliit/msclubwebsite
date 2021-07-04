@@ -3,8 +3,8 @@ import FlatVector from '../../../assets/flat-illustrations/boardpeople.png';
 import './WhatWeDoSection.css';
 
 const WhatWeDoSection = () => (
-  <div className="wrap">
-    <section className="WhatWeDoSectionHome container mt-5">
+  <section className="WhatWeDoSectionHome container mt-5">
+    <div className="wrap">
       <h2 className="text-center what-we-do-header">
         <strong>What We Do</strong>
       </h2>
@@ -57,8 +57,8 @@ const WhatWeDoSection = () => (
           </div>
         </div>
       </div>
-    </section>
-  </div>
+    </div>
+  </section>
 );
 
 export default WhatWeDoSection;
