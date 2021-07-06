@@ -60,7 +60,13 @@ const TopSpeakers = () => (
         }}
       >
         {speakers.data.map((speaker) => (
-          <TopSpeakerCard key={speaker.id} image={speaker.image} title={speaker.title} />
+          <TopSpeakerCard
+            key={speaker.id}
+            image={speaker.image}
+            title={speaker.title}
+            description={speaker.description}
+            urls={speaker.socialMediaURLs}
+          />
         ))}
       </OwlCarousel>
     </div>

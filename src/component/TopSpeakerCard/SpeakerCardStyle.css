@@ -1,21 +1,57 @@
-.past-speaker-img {
-    object-fit: cover;
+.Card {
+    width: 300px;
+    height: 350px;
+    background: white;
     border-radius: 10px;
-    height: 250px;
-    overflow: hidden;
+    box-shadow: 0px 1px 10px 1px black;
 }
 
-.speaker-card {
-    width: 280px;
+.upper-container {
+    height: 100px;
+    background: linear-gradient(to left, #54E346, #9EDE73 );
+}
+
+.image-container > img {
+object-fit: cover;
+ background: white;
+ width: 150px !important;
+ height: 150px !important;
+ border-radius: 50%;
+ padding: 5px;
+ transform: translate(50%,25%);
+ border: 2px solid #54E346;
+}
+
+.lower-container {
     height: 300px;
-    border-radius: 10px;
+    background: white;
     text-align: center;
-    background: var(--light);
-    box-shadow: 0px 0px 0px var(--light-shadow-color);
-    -webkit-transition: box-shadow 0.3s ease-out;
+    margin-top: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.speaker-card:hover {
-    box-shadow: 8px 10px var(--light-shadow-color);
-    -webkit-transition: box-shadow 0.2s ease-out;
+.lower-container > h3 {
+    color: #2f2d2e;
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: 40% !important;
+}
+
+.lower-container > h4 {
+    color: #54E346;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.lower-container > a {
+    color: black;
+    padding: 2px;
+}
+
+.image-container {
+    transition: transform 450ms;
+}
+
+.image-container:hover {
+    transform: scale(1.25);
 }
