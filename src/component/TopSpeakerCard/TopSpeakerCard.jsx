@@ -6,7 +6,7 @@ const TopSpeakerCard = ({ image, title, description, urls }) => (
   <div className="Card">
     <div className="upper-container">
       <div className="image-container">
-        <img src={image} alt="speakerIMG" height="100px" width="100px" />
+        <img src={image} alt="speakerIMG" />
       </div>
     </div>
     <div className="lower-container">
